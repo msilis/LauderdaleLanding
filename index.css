@@ -1,0 +1,64 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: lightcoral;
+}
+
+.nav-list-container {
+  height: 2.5rem;
+  background-color: gray;
+  opacity: 75%;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px black;
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav-list-link {
+  list-style: none;
+  padding-left: 8px;
+  margin-right: 5px;
+}
+
+a {
+  text-decoration: none;
+  transition: transform ease 0.75s;
+}
+
+a:hover {
+  color: green;
+  transform: scale(1.125);
+}
+
+.welcome-hero {
+  display: flex;
+  justify-content: center;
+  border: 1px solid red;
+  margin: auto;
+  height: 40vw;
+  width: 98vw;
+  background-image: url("./Media/ashkan-forouzani-ngLJQk1z1o8-unsplash.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.welcome-tag-container {
+  border: 1px solid red;
+  text-align: center;
+  width: 50vw;
+}
+
+.welcome-tag {
+  border: 1px solid red;
+  margin-top: 4rem;
+  font-size: 4em;
+  background-color: hsla(23, 8%, 50%, 0.63);
+}
